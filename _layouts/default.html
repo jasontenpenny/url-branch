@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>
+            {%- if profile.siteName -%}
+            {{ profile.siteName }}
+            {%- else -%}
+            {{ profile.name}}'s Links
+            {%- endif -%}
+        </title>
+        <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
+        <link rel="preconnect" href="https://rsms.me/" />
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+        <meta name="color-scheme" content="dark light" />
+    </head>
+    <body>
+        <main class="page-wrapper">
+            {%- if profile.avatar -%}
+            <div class="avatar">
+                <img src="{{ profile.avatar }}" alt="avatar for {{ profile.name }}" />
+            </div>
+            {%- else -%}
+            <div class="avatar">
+                <i class="fa-solid fa-user alt-avatar"></i>
+            </div>
+            {%- endif -%}
+            {%- if profile.name -%}
+            <h1 class="profile-name">{{ profile.name }}</h1>
+            {%- endif -%}
+            {%- if profile.description -%}
+            <p class="profile-description">{{ profile.description }}</p>
+            {%- endif -%}
+
+            <section class="links">
+            {%- for link in links -%}
+            <a class=" linkbox link.{{ link.type }}" href="{{ link.url }}">
+            <div class="linkbox">
+                {%- if link.icon and link.category -%}
+                <i class="fa-brands fa-{{ link.icon }}"></i>
+                {%- elsif link.icon -%}
+                <i class="fa-solid fa-{{ link.icon }}"></i>
+                {%- endif -%}
+                <span class="link-label">{{ link.displayName }}</span>
+                {%- if link.subtitle -%}
+                <p class="link-subtitle">{{ link.subtitle }}</p>
+                {%- endif -%}
+            </div>
+            </a>
+            {%- endfor -%}
+            </section>
+        </main>
+        <footer>
+            <p>Made using <a href="https://github.com/jasontenpenny/url-branch">url-branch</a>.</p>
+        </footer>
+    </body>
+</html>

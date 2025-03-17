@@ -1,0 +1,42 @@
+[
+  {
+    "category": "brand",
+    "icon": "bluesky",
+    "displayName": "Bluesky",
+    "url": "https://bsky.app/profile/myprofile.bsky.social"
+  },
+  {
+    "category": "brand",
+    "icon": "github",
+    "displayName": "Github",
+    "url": "https://github.com/myprofile"
+  },
+  {
+    "category": "brand",
+    "icon": "linkedin",
+    "displayName": "LinkedIn",
+    "url": "https://www.linkedin.com/in/myprofile"
+  },
+  {
+    "category": "brand",
+    "icon": "twitter",
+    "displayName": "Twitter / X",
+    "url": "https://mywebsite.com"
+  },
+  {
+    "icon": "link",
+    "displayName": "Website",
+    "url": "https://www.myblog.com"
+  },
+  {
+    "icon": "envelope",
+    "displayName": "Email",
+    "url": "mailto://email@domain.com"
+  },
+  {
+    "icon": "podcast",
+    "displayName": "My Podcast",
+    "subtitle": "Listen on Spotify",
+    "url": "https://spotify.com/mypodcast"
+  }
+]

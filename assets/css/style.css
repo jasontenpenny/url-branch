@@ -1,0 +1,152 @@
+/* Base Styling */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'ss02' 1;
+    --icon-font: "Font Awesome 6 Free";
+    line-height: 1.25rem;
+    color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --linkbox-text-primary: rgb(75, 75, 75);
+        --linkbox-background: rgb(250, 250, 250);
+        --linkbox-hover-background: rgb(230, 230, 230);
+        --linkbox-hover-text: rgb(30, 30, 30);
+        --linkbox-border: rgb(210, 210, 210);
+        --background: rgb(250, 250, 250);
+        --text-primary: rgb(75, 75, 75);    
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --linkbox-text-primary: rgb(230, 230, 230);
+        --linkbox-background: rgb(30, 30, 30);
+        --linkbox-hover-background: rgb(75, 75, 75);
+        --linkbox-hover-text: rgb(250, 250, 250);
+        --linkbox-border: rgb(210, 210, 210);
+        --background: rgb(30, 30, 30);
+        --text-primary: rgb(230, 230, 230);    
+    }
+}
+
+@supports (font-variation-settings: normal) {
+    :root { font-family: InterVariable, sans-serif; }
+}
+
+html {
+    margin: 0 auto;
+    max-width: 420px;
+}
+
+body {
+    font-size: 14px;
+    background-color: var(--background);
+    color: var(--text-primary);
+    text-align: center;
+}
+
+main {
+    padding: 3rem 0;
+}
+
+.links {
+    padding-top: 1rem;
+    margin: 0 auto;
+}
+
+
+/* Header formatting */
+
+.avatar img {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.alt-avatar {
+    font-size: 3rem !important;
+    padding: 1rem !important;
+}
+
+.profile-name {
+    font-size: 1.75rem;
+    line-height: 1.25em;
+    text-overflow: ellipsis;
+    background-position: 50% 50%;
+}
+
+.profile-description {
+    font-size: 0.825rem;
+}
+
+
+/* Linkbox formatting */
+
+div.linkbox {
+    border-radius: 0.325rem;
+    border-width: 0.125rem;
+    border-style: solid;
+    border-color: var(--linkbox-border);
+    padding: 1.25em;
+    border-color: var(--linkbox-border);
+    background-color: var(--linkbox-background);
+    margin: 1rem 0;
+    vertical-align: middle;
+}
+
+div.linkbox:hover, div.linkbox:active {
+    background-color: var(--linkbox-hover-background);
+    cursor:pointer;
+}
+
+a.linkbox, a.linkbox:visited {
+    font-size: 1rem;
+    line-height: 2rem;
+    vertical-align: middle;
+    color: var(--linkbox-text-primary);
+    text-decoration: none;
+}
+
+a.linkbox:hover, a.linkbox:active {
+    color: var(--linkbox-hover-text);
+}
+
+i[class*=fa-] {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding-right: 0.5rem;
+    vertical-align: middle;
+}
+
+.link-label {
+    line-height: 2rem;
+    vertical-align: middle;
+}
+
+.link-subtitle {
+    padding: 0;
+    margin: 0;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    vertical-align: middle;
+}
+
+/* Footer styling */
+
+footer {
+    font-size: 0.75rem;
+}
+
+footer a {
+    color: var(--text-primary);
+}
+

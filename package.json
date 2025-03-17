@@ -1,0 +1,24 @@
+{
+  "name": "url-branch",
+  "version": "1.0.0",
+  "description": "Open-source static version of Linktree",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasontenpenny/url-branch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasontenpenny/url-branch/issues"
+  },
+  "homepage": "https://github.com/jasontenpenny/url-branch#readme",
+  "type": "module",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}
