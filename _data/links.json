@@ -19,9 +19,15 @@
   },
   {
     "category": "brand",
+    "icon": "mastodon",
+    "displayName": "Mastodon",
+    "url": "https://mastodon.social/@myprofile"
+  },
+  {
+    "category": "brand",
     "icon": "twitter",
     "displayName": "Twitter / X",
-    "url": "https://mywebsite.com"
+    "url": "https://x.com/myprofile"
   },
   {
     "icon": "link",
