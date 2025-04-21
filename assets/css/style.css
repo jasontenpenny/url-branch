@@ -95,7 +95,6 @@ div.linkbox {
     border-radius: 0.325rem;
     border-width: 0.125rem;
     border-style: solid;
-    border-color: var(--linkbox-border);
     padding: 1.25em;
     border-color: var(--linkbox-border);
     background-color: var(--linkbox-background);

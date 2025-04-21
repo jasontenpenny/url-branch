@@ -33,7 +33,7 @@
 
             <section class="links">
             {%- for link in links -%}
-            <a class=" linkbox link.{{ link.type }}" href="{{ link.url }}" {%- if link.icon == 'mastodon' -%} rel="me"{%- endif -%}>
+            <a class=" linkbox link-{{ link.icon }}" href="{{ link.url }}" {%- if link.icon == 'mastodon' -%} rel="me"{%- endif -%}>
             <div class="linkbox">
                 {%- if link.icon and link.category -%}
                 <i class="fa-brands fa-{{ link.icon }}"></i>
