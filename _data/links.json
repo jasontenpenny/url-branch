@@ -3,30 +3,40 @@
     "category": "brand",
     "icon": "bluesky",
     "displayName": "Bluesky",
+    "background-color": "#0085ff",
+    "text-color": "#ffffff",
     "url": "https://bsky.app/profile/myprofile.bsky.social"
   },
   {
     "category": "brand",
     "icon": "github",
     "displayName": "Github",
+    "background-color": "#000000",
+    "text-color": "#ffffff",
     "url": "https://github.com/myprofile"
   },
   {
     "category": "brand",
     "icon": "linkedin",
     "displayName": "LinkedIn",
+    "background-color": "#2867b2",
+    "text-color": "#ffffff",
     "url": "https://www.linkedin.com/in/myprofile"
   },
   {
     "category": "brand",
     "icon": "mastodon",
     "displayName": "Mastodon",
+    "background-color": "#6364ff",
+    "text-color": "#000000",
     "url": "https://mastodon.social/@myprofile"
   },
   {
     "category": "brand",
-    "icon": "twitter",
-    "displayName": "Twitter / X",
+    "icon": "x-twitter",
+    "displayName": "X / Twitter",
+    "background-color": "#000000",
+    "text-color": "#ffffff",
     "url": "https://x.com/myprofile"
   },
   {
@@ -43,6 +53,8 @@
     "icon": "podcast",
     "displayName": "My Podcast",
     "subtitle": "Listen on Spotify",
+    "background-color": "#1ed760",
+    "text-color": "#ffffff",
     "url": "https://spotify.com/mypodcast"
   }
 ]

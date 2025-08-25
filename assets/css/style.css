@@ -6,7 +6,7 @@
 :root {
     font-family: Inter, sans-serif;
     font-feature-settings: 'liga' 1, 'ss02' 1;
-    --icon-font: "Font Awesome 6 Free";
+    --icon-font: "Font Awesome 7 Free";
     line-height: 1.25rem;
     color-scheme: light dark;
 }
@@ -122,7 +122,7 @@ a.linkbox:hover, a.linkbox:active {
 i[class*=fa-] {
     font-size: 1.5rem;
     line-height: 2rem;
-    padding-right: 0.5rem;
+    margin-right: 0.5rem;
     vertical-align: middle;
 }
 
