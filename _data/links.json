@@ -47,7 +47,7 @@
   {
     "icon": "envelope",
     "displayName": "Email",
-    "url": "mailto://email@domain.com"
+    "url": "mailto:email@domain.com"
   },
   {
     "icon": "podcast",

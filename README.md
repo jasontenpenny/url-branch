@@ -72,4 +72,4 @@ You also have the option to choose colors for the background and the text. If yo
 ```
 
 > [!NOTE]
-> If you want to specify an email address, you need to add `mailto://` to the front of the email address. For example, `"url": "mailto://hello@domain.com"`.
+> If you want to specify an email address, you need to add `mailto:` to the front of the email address. For example, `"url": "mailto:hello@domain.com"`.
