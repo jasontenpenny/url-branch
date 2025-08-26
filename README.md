@@ -8,7 +8,7 @@ This repository contains an open-source link aggregator, similar to Linktree. It
 
 Clone the repository and then install Eleventy in the folder.
 
-```node
+```
 npm install @11ty/eleventy
 ```
 
